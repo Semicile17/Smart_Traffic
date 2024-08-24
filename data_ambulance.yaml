@@ -1,0 +1,13 @@
+train: E:/UPES/Traffic/dataset/train_ambulance/images
+val: E:/UPES/Traffic/dataset/valid_ambulance/images
+test: E:/UPES/Traffic/dataset/test_ambulance/images
+
+nc: 1
+names: ['ambulance']
+
+roboflow:
+  workspace: sam-cagxt
+  project: ambulance-2
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/sam-cagxt/ambulance-2/dataset/2

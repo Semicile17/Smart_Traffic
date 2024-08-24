@@ -1,0 +1,13 @@
+train: E:/UPES/Traffic/dataset2/train/images
+val: E:/UPES/Traffic/dataset2/valid/images
+test: E:/UPES/Traffic/dataset2/test/images
+
+nc: 7
+names: ['ambulance', 'auto-rikshaw', 'bike', 'bus', 'car', 'police vehicle', 'truck']
+
+roboflow:
+  workspace: hf-riaag
+  project: indian-vehicle-dataset
+  version: 25
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/hf-riaag/indian-vehicle-dataset/dataset/25
